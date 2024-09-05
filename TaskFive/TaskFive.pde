@@ -1,7 +1,19 @@
+
+//--------------------Task 5: Scope: 5.a-5.d--------------------//
+
 /* 
 The code in this sketch will not compile, as it referes to varables which have not yet been declared 
 Please complete task 5 to get this to compile.
 */
+
+
+float circleSize;
+float numberOfCircles;
+float x;
+float y;
+float counter = 0;
+float rowCounter = 0;
+
 void setup(){
    size(400,400);
   

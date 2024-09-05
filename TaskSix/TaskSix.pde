@@ -16,6 +16,7 @@ float y;
 float counter = 0;
 float rowCounter = 0;
 
+//Erklærer tre variabler i det globale scope
 int red;
 int green;
 int blue;
@@ -23,11 +24,15 @@ int blue;
 
 void setup(){
    size(400,400);
-  
+   red=255;
+   green=255;
+   blue=255;
+      
    numberOfCircles = 30;
    circleSize = width/numberOfCircles;
    ellipseMode(CORNER);
   
+
 }
 void draw(){
   
@@ -36,7 +41,7 @@ void draw(){
   y = circleSize*rowCounter;
  
  // Un-comment this line after completing step 6.a 
- // fill(red,green,blue);
+  fill(red,green,blue);
    
    ellipse(x,y,circleSize,circleSize);
   
@@ -55,5 +60,15 @@ void draw(){
   // 3 % 3 = 0
  
   //Add the code for 6.c here
+  
+
+  
+  /*fill(random(255), random(255), random(255));
+  red = (int) random(255);
+  green = (int) random(255);
+  blue = (int) random(255);*/
+  red = counter==0 ? (int)random(255):red; 
+  green = counter==0 ? (int)random(255):green;  
+  blue = counter==0 ? (int)random(255):blue; 
   
 }

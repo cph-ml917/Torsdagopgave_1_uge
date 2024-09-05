@@ -1,5 +1,6 @@
 
-//--------------------Task 5: Scope: 5.a-5.d--------------------//
+//---------------------Task 5: Scope----------------------//
+//------------------------5.a-5.d-------------------------//
 
 /* 
 The code in this sketch will not compile, as it referes to varables which have not yet been declared 

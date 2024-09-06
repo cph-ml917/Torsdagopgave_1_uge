@@ -61,12 +61,6 @@ void draw(){
  
   //Add the code for 6.c here
   
-
-  
-  /*fill(random(255), random(255), random(255));
-  red = (int) random(255);
-  green = (int) random(255);
-  blue = (int) random(255);*/
   red = counter==0 ? (int)random(255):red; 
   green = counter==0 ? (int)random(255):green;  
   blue = counter==0 ? (int)random(255):blue; 

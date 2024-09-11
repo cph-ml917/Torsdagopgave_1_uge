@@ -13,7 +13,7 @@ println("Adresse: "+address);
 sum =2+4;
 println("Summen er: "+sum);
 
-divisionResult=4/2;
+divisionResult=(float)4/2;
 println("Resultatet er: "+divisionResult);
 
 message="HelloWorld";

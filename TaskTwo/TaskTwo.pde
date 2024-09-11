@@ -10,7 +10,7 @@ String city = "København";
 boolean warm = true;
 
 
-int sum1 = 60*24;
+int minutesThisDay = 60*24;
 
 float time= 22.12;
 
@@ -20,4 +20,5 @@ boolean cold =false;
 
 float sum2 = 2.2 + 33;
 
+//Bemærkning: Single quotes ved char(''). String anvender dobbelt-quotes ("").
 char letter = 'S';
